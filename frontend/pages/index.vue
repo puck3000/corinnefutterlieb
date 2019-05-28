@@ -120,7 +120,7 @@ a:hover h2 {
 #contact {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #contact a:hover {
