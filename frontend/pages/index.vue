@@ -165,7 +165,7 @@ a:hover h2 {
     align-items: center;
   }
   #downloads li {
-    margin-right: 5rem;
+    margin-right: 6rem;
   }
   #downloads li:last-child {
     margin-right: 0;
@@ -204,6 +204,9 @@ a:hover h2 {
   }
   h3 {
     font-size: 2rem;
+  }
+   #downloads li {
+    margin-right: 9rem;
   }
   
 }
