@@ -24,7 +24,7 @@ module.exports = {
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        value: '/CorinneFutterlieb_mobileScreenshot.png'
+        value: 'https://corinnefutterlieb.netlify.com/CorinneFutterlieb_mobileScreenshot.png'
       }, {
         hid: 'twitter:description',
         name: 'twitter:description',
@@ -43,7 +43,7 @@ module.exports = {
       }, {
         hid: 'og:image',
         name: 'og:image',
-        content: '/CorinneFutterlieb_mobileScreenshot.png'
+        content: 'https://corinnefutterlieb.netlify.com/CorinneFutterlieb_mobileScreenshot.png'
       }, {
         hid: 'og:description',
         name: 'og:description',
