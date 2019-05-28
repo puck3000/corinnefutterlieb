@@ -182,13 +182,41 @@ a:hover h2 {
     max-height: 700px;
   }
 }
+/* Corinnes Macbook Air 1366 * 768 px */
+@media (min-width: 1150px) and (min-height: 750px) {
+  main {
+    min-height: 650px;
+    max-height: 650px;
+  }
+}
+
+
+/* fullHD and above */
+@media (min-width: 1900px) and (min-height: 1000px) {
+  main {
+    min-height: 900px;
+    max-height: 900px;
+    min-width: 1200px;
+    max-width: 1200px;
+  }
+  h1, h2 {
+    font-size: calc(3rem * 3);
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  
+}
+
+
 
 /* imac and others */
-@media (min-width: 1921px) and (min-height: 1781px) {
+@media (min-width: 3000px) and (min-height: 1750px) {
   main {
-    min-height: 1300px;
-    min-width: 1900px;
-    max-width: 1900px;
+    min-height: 1500px;
+    max-height: 1500px;
+    min-width: 1750px;
+    max-width: 1750px;
     margin: auto;
   }
   h1,
