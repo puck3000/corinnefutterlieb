@@ -229,5 +229,8 @@ a:hover h2 {
   h3 {
     font-size: 3rem;
   }
+   #downloads li {
+    margin-right: 14rem;
+  }
 }
 </style>
