@@ -118,9 +118,11 @@ a:hover h2 {
 }
 
 #contact {
+  width: 94%;
+  margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #contact a:hover {
