@@ -19,16 +19,16 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: 'Corinne Futterlieb. Labor - Kunst - Foto. Portfolio Website'
+        content: 'Corinne Futterlieb. Foto - Kunst - Labor. Portfolio Website'
       },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        value: ''
+        value: '/CorinneFutterlieb_mobileScreenshot.png'
       }, {
         hid: 'twitter:description',
         name: 'twitter:description',
-        value: 'Corinne Futterlieb. Labor - Kunst - Foto. Portfolio Website'
+        value: 'Corinne Futterlieb. Foto - Kunst - Labor. Portfolio Website'
       }, {
         hid: 'og:title',
         name: 'og:title',
@@ -43,11 +43,11 @@ module.exports = {
       }, {
         hid: 'og:image',
         name: 'og:image',
-        content: ''
+        content: '/CorinneFutterlieb_mobileScreenshot.png'
       }, {
         hid: 'og:description',
         name: 'og:description',
-        content: 'Corinne Futterlieb. Labor - Kunst - Foto. Portfolio Website'
+        content: 'Corinne Futterlieb. Foto - Kunst - Labor. Portfolio Website'
       }
     ],
     link: [{

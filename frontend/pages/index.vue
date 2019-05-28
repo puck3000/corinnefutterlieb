@@ -2,7 +2,7 @@
   <main>
     <Title/>
     <ul id="downloads">
-      <Download v-for="download in downloads" :key="download.id" :download="download"></Download>
+      <Download v-for="download in downloads.slice().reverse()" :key="download.id" :download="download"></Download>
     </ul>
     <Contact/>
   </main>
@@ -27,7 +27,7 @@ export default {
     return sanityClient.fetch(query).then(res => {
       return { downloads: res.reverse() };
     });
-  }
+  },
 };
 </script>
 
