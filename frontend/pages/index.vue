@@ -185,8 +185,8 @@ a:hover h2 {
 /* Corinnes Macbook Air 1366 * 768 px */
 @media (min-width: 1150px) and (min-height: 750px) {
   main {
-    min-height: 650px;
-    max-height: 650px;
+    min-height: 600px;
+    max-height: 600px;
   }
 }
 
@@ -194,8 +194,8 @@ a:hover h2 {
 /* fullHD and above */
 @media (min-width: 1900px) and (min-height: 1000px) {
   main {
-    min-height: 900px;
-    max-height: 900px;
+    min-height: 800px;
+    max-height: 800px;
     min-width: 1200px;
     max-width: 1200px;
   }
@@ -213,8 +213,8 @@ a:hover h2 {
 /* imac and others */
 @media (min-width: 3000px) and (min-height: 1750px) {
   main {
-    min-height: 1500px;
-    max-height: 1500px;
+    min-height: 1300px;
+    max-height: 1300px;
     min-width: 1750px;
     max-width: 1750px;
     margin: auto;
