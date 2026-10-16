@@ -34,6 +34,17 @@ Open https://www.corinne-futterlieb.com/admin, log in, pick a PDF under
 
 ```
 npm install
-npx vercel link && npx vercel env pull   # gets the Blob token
-ADMIN_PASSWORD=test npx vercel dev
+npm run dev:local        # http://localhost:3000  and  /admin (corinne / test)
 ```
+
+Without a Blob token, the site, the redirects and the admin login work, but uploads fail.
+To test uploads, put a token from a Blob store into `.env.local`:
+
+```
+BLOB_READ_WRITE_TOKEN=vercel_blob_rw_...
+ADMIN_PASSWORD=whatever
+```
+
+The token is under *Storage > your Blob store > .env.local* in the Vercel dashboard,
+or run `npx vercel link && npx vercel env pull`. Use a separate test store if you
+do not want to touch production files. `npm run dev` runs the official `vercel dev` instead.

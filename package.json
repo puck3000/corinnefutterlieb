@@ -5,12 +5,13 @@
   "description": "Static portfolio page for corinne-futterlieb.com with a tiny PDF upload admin",
   "author": "Daniel Lerch",
   "scripts": {
+    "dev:local": "node --env-file-if-exists=.env.local scripts/dev.mjs",
     "dev": "vercel dev"
   },
   "dependencies": {
     "@vercel/blob": "2.8.0"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22.9"
   }
 }
